@@ -4,10 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-builder.Services.AddControllersWithViews(); //Mvc nin özelliklerini kullanabilmem için ekliyorum
+builder.Services.AddControllersWithViews(); 
 var app = builder.Build();
 
-app.UseStaticFiles(); //static filelr için middleware
+app.UseStaticFiles(); //static fileler için middleware
 
 app.UseRouting();
 
@@ -15,7 +15,7 @@ app.UseRouting();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
-); //controller/action/id? şemasını aktarmak için aslında
+); 
 
 
 app.Run();

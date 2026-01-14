@@ -10,7 +10,7 @@ namespace meetingApp.Controllers
 
        
 
-        [HttpGet] ////yazılmadığı sürece action metotu get olarak defoult tanımlanmıstır ben yazmasam da calisan getti
+        [HttpGet] // aksi yazılmadığı sürece action metotu get olarak defoult tanımlanmıstır
         public IActionResult Apply()
         {
             return View();
