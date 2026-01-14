@@ -18,7 +18,7 @@ static Repository()
 }
 
 
-        public static List<UserInfo> Users //Listeyi okumak için,_users direkt değiştirilemez private cünkü
+        public static List<UserInfo> Users //Listeyi okumak için
         {
             get
             {

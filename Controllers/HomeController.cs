@@ -17,12 +17,12 @@ namespace meetingApp.Controllers
             {
                 Id=1,
                 Location="Ankara",
-                Date= new DateTime(2025,01,20,20,0,0),
+                Date= new DateTime(2026,01,20,20,0,0),
                 NumberOfPeople =UserCount
             };
 
 
                 return View(meetingInfo);
-        }
+        } 
     }
 }
